@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vineet Vikram Singh | Full-stack developer</title>
+    <meta name="description" content="Vineet Vikram Singh: computer science student building full-stack web apps and browser games with TypeScript, React and Node.js. Projects include a streamer donation platform with its own payment gateway, an AI resume builder and a no-guess Minesweeper." />
+    <meta name="author" content="Vineet Vikram Singh" />
+    <link rel="canonical" href="https://vineetvsingh.github.io/Portfolio/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vineetvsingh.github.io/Portfolio/" />
+    <meta property="og:title" content="Vineet Vikram Singh | Full-stack developer" />
+    <meta property="og:description" content="Computer science student building full-stack web apps and browser games with TypeScript, React and Node.js." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@yt_vine" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Vineet Vikram Singh",
+      "url": "https://vineetvsingh.github.io/Portfolio/",
+      "email": "mailto:smashvineer@gmail.com",
+      "sameAs": ["https://github.com/vineetvsingh", "https://www.linkedin.com/in/vineetvsingh", "https://x.com/yt_vine"],
+      "knowsAbout": ["TypeScript", "React", "Node.js", "MongoDB", "Payments", "Game development"],
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Shambhunath Institute of Engineering & Technology, Prayagraj" },
+        { "@type": "School", "name": "Khel Gaon Public School" }
+      ]
+    }
+    </script>
+
+    <!-- Resolve the theme before first paint so the page never flashes. -->
+    <script>
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem("theme"); } catch (e) {}
+        if (t !== "light" && t !== "dark") {
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", t);
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <main style="max-width:42rem;margin:2rem auto;padding:0 1.5rem;font-family:monospace;line-height:1.6">
+        <h1>Vineet Vikram Singh</h1>
+        <p>Computer science student building full-stack web apps and browser games in TypeScript, React and Node.js.</p>
+        <p>
+          <a href="https://github.com/vineetvsingh">GitHub</a> ·
+          <a href="https://www.linkedin.com/in/vineetvsingh">LinkedIn</a> ·
+          <a href="https://x.com/yt_vine">X</a> ·
+          <a href="mailto:smashvineer@gmail.com">smashvineer@gmail.com</a>
+        </p>
+      </main>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
